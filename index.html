@@ -74,8 +74,8 @@
               </ul>
             </div>
             <div class="hidden space-x-4 sm:flex">
-                <span><i class="fa-solid fa-magnifying-glass  bg-white text-gray-500 rounded-full px-3 py-2 text-xl "></i></span>
-                <span><i class="fa-solid fa-cart-shopping  bg-white text-gray-500 rounded-full px-3 py-2 text-xl "></i></span>
+                <span><i class="fa-solid fa-magnifying-glass  bg-white text-gray-500 border-solid border-2 rounded-full  px-3 py-2 text-xl "></i></span>
+                <span><i class="fa-solid fa-cart-shopping  bg-white text-gray-500 border-solid border-2 rounded-full px-3 py-2 text-xl "></i></span>
               <div class=" px-4 py-2 bg-green rounded-full font-bold space-x-1  ">
                 <a class="font-bold">Book Consult</a>
               <span><i class="fa-solid fa-arrow-right bg-black text-white rounded-full px-2 py-2 -rotate-45 "></i></span>
@@ -90,7 +90,7 @@
       
           <h1 class="text-center lg:text-5xl text-3xl font-bold ">A barn house of this design has a <br> striking appearance</h1>
           
-          <p class="text-center   my-6	text-slate-700 ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+          <p class="text-center   my-6	text-slate-700 ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
 
           <div class="flex justify-center items-center">
             <div class="btn  items-center w-fit px-4  bg-lime-300 rounded-full font-bold space-x-1">
@@ -104,39 +104,101 @@
     </header>
 
     <main> 
-      <section class="bg-slate-200">
-        <img src="./assets/Vector.png" alt="">
-        <div class="flex">
-        <div class="">
-        <div class="w- lg:w-48  px-4 py-2 bg-slate-50 rounded-full font-bold space-x-1  ">
+      <section class="bg-stone-100 md:container mx-auto lg:px-16">
+        <div>
+            <br>
+          <img  src="./assets/Vector.png"  alt="">
+        </div>
+        
+        <div class="flex gap-x-6">
+        <div class="px-5 py-2">
+        <div class="lg:w-48 px-4 py-1 bg-white rounded-3xl font-bold space-x-1  ">
           <span><i class="fa-solid fa-arrow-right  rounded-full px-2 py-2 -rotate-50"></i></span>
           <a class=" font-bold">About Us</a>        
         </div>
         <div>
-          <h1>We design thoughtful, liveable spaces</h1>
-          <p>The barn house captivates with its blend of rustic charm and 
+          <h1 class="font-extrabold text-4xl ">We design thoughtful, <br> liveable spaces</h1>
+          <p class="font-medium text-base py-6">The barn house captivates with its blend of rustic charm and <br>
             modern sophistication, featuring weathered wood, sleek metal accents.</p>
         </div>
-        <div class="flex bg-white rounded-lg space-x-4">
-          <img src="./assets/commercial.png" alt="">
-          <div class="table-column space-y-2 	">
-          <h1>Commercial</h1>
-          <p>The barn house captivates with its blend of rustic charm and modern.</p>
-          </div>          
+        <div class="space-x-4 rounded-lg">
+            <div class="flex bg-white rounded-lg space-x-4 px-5 py-5">
+                <img src="assets/commercial.png" alt="">
+                <div class="table-column space-y-2 	">
+                <h1 class="font-bold text-xl">Commercial</h1>
+                <p class="font-medium text-neutral-500">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                </div> 
+        </div>         
         </div>
-        <div class="flex bg-white rounded-lg mt-3	space-x-4">
-          <img src="./assets/residential.png" alt="">
+        <div class="flex bg-white rounded-lg mt-3 space-x-4 px-5 py-5">
+          <img src="assets/residential.png" alt="">
           <div class="table-column space-y-2">
-          <h1>Residential</h1>
-          <p>The barn house captivates with its blend of rustic charm and modern.</p>
+          <h1 class="font-bold text-xl">Residential</h1>
+          <p  class="font-medium text-neutral-500">The barn house captivates with its blend <br> of rustic charm and modern.</p>
           </div>
           
         </div>
       </div>
-      <img src="./assets/Rectangle.png" alt="">
+      <div >
+        <img src="assets/Rectangle.png" alt="">
+      </div>
     </div>
-        
-      </section>
+    <br><br><br>
+    
+    </section>
+    <!-- 2nd scetion  -->
+    <section class="bg-stone-100 md:container mx-auto lg:px-16">
+      <div class="flex justify-center items-center">
+      <div class="lg:w-48 px-4 py-1 bg-white rounded-3xl font-bold space-x-1  ">
+        <span><i class="fa-solid fa-arrow-right  rounded-full px-2 py-2 -rotate-50"></i></span>
+        <a class=" font-bold">How we works</a>        
+      </div>
+    </div>
+      <div>
+        <h1 class="text-center">Our Works Process</h1>
+        <p class="text-center">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+      </div>
+
+      <!-- card style  -->
+
+      <div class="mt-0 pb-10 container mx-auto  bg-[#f4f4f4]  w-full ">
+        <div class="pt-6 grid sm:grid-cols-1 md:grid-cols-4 gap-5 ml-[90px] lg:ml-16  ">
+            <div class="card bg-[#E7C1D3]  shadow-xl h-[227px] w-[320px] md:h-[240px] md:w-[255px]">
+                <img class="h-16 w-12 ml-6 mt-6" src="assets/concept.png" alt="Shoes" />
+
+                <div class="card-body -mt-6">
+                    <h2 class="card-title font-bold text-xl">Concept</h2>
+                    <p class="font-medium text-sm  text-neutral-700">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+            </div>
+            <div class="card bg-[#EFDA6E] shadow-xl h-[227px] w-[320px] md:h-[240px] md:w-[255px] ">
+                <img class="h-16 w-12 ml-6 mt-6" src="assets/flow-chart.png" alt="Shoes" />
+
+                <div class="card-body -mt-6">
+                    <h2 class="card-title font-bold text-xl">Design Process</h2>
+                    <p class="font-medium text-sm  text-neutral-700">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+            </div>
+            <div class="card bg-[#A4DAC3] h-[227px] w-[320px] md:h-[240px] md:w-[255px] shadow-xl">
+                <img class="h-16 w-12 ml-6 mt-6" src="assets/vision.png" alt="Shoes" />
+
+                <div class="card-body -mt-6">
+                    <h2 class="card-title font-bold text-xl">Supervision</h2>
+                    <p class="font-medium text-sm  text-neutral-700">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+            </div>
+            <div class="card bg-[#77AAEA]  h-[227px] w-[320px] md:h-[240px] md:w-[255px] shadow-xl">
+                <img class="h-16 w-12 ml-6 mt-6" src="assets/budget-planning.png" alt="Shoes" />
+
+                <div class="card-body -mt-6">
+                    <h2 class="card-title font-bold text-xl">Budget Planning</h2>
+                    <p class="font-medium text-sm  text-neutral-700">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
 
      </main>
     <footer></footer>
